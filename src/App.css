@@ -1,0 +1,30 @@
+.bold {
+  font-weight: 900;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+* {
+  scrollbar-color: #e9ecef #1d1d1d;
+  scrollbar-width: auto;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e9ecef;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+}
