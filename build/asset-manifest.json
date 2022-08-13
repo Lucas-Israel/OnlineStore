@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/OnlineStore/static/css/main.a46515b8.css",
-    "main.js": "/OnlineStore/static/js/main.547b1ba2.js",
+    "main.js": "/OnlineStore/static/js/main.19ef1000.js",
     "static/media/deliveryfree.png": "/OnlineStore/static/media/deliveryfree.e859ecdbdc1e07d777df.png",
     "static/media/logo.png": "/OnlineStore/static/media/logo.f788707a5d89f8752d16.png",
     "index.html": "/OnlineStore/index.html",
     "main.a46515b8.css.map": "/OnlineStore/static/css/main.a46515b8.css.map",
-    "main.547b1ba2.js.map": "/OnlineStore/static/js/main.547b1ba2.js.map"
+    "main.19ef1000.js.map": "/OnlineStore/static/js/main.19ef1000.js.map"
   },
   "entrypoints": [
     "static/css/main.a46515b8.css",
-    "static/js/main.547b1ba2.js"
+    "static/js/main.19ef1000.js"
   ]
 }
