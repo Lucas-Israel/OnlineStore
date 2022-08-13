@@ -38,7 +38,7 @@ class ShoppingCart extends Component {
 
   render() {
     const { cart } = this.state;
-    const totalPrice = cart.length > 0 ? 0 : cart
+    const totalPrice = cart.length === 0 ? 0 : cart
       .map(({ price, orderQuantity }) => price * orderQuantity).reduce((a, b) => a + b);
     const currency = new Intl.NumberFormat('en-US', {
       style: 'currency',
@@ -141,7 +141,7 @@ class ShoppingCart extends Component {
             <div
               className="fs-5 mb-3"
             >
-              {cart.length > 'Total: R$0.00 ? 0 : `Total: ${currency.format(totalPrice)}`}
+              {`Total: ${currency.format(totalPrice)}`}
             </div>
             <Link to="/checkout">
               <button
