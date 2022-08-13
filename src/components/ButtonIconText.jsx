@@ -7,7 +7,7 @@ class ButtonIconText extends React.Component {
     const { icon, text, classStyle, handlerAddToCart, product, dataTestId } = this.props;
     if (dataTestId === 'product-detail-link') {
       return (
-        <Link to="/detalhes">
+        <Link to="/OnlineStore/detalhes">
           <button
             data-testid="abc"
             type="button"

@@ -12,7 +12,7 @@ class HeaderNav extends Component {
       <ul className="nav">
         <li className="nav-item">
           <Link
-            to="/"
+            to="/OnlineStore/"
             className="nav-link me-2 btn btn-dark text-white text-decoration-none"
           >
             Home
@@ -22,7 +22,7 @@ class HeaderNav extends Component {
         && (
           <li className="nav-item">
             <Link
-              to="/"
+              to="/OnlineStore/"
               className="nav-link me-2 btn btn-dark text-white text-decoration-none"
               data-bs-toggle="offcanvas"
               data-bs-target="#NavCategories"
@@ -32,7 +32,7 @@ class HeaderNav extends Component {
           </li>)}
         <li className="nav-item">
           <Link
-            to="/cart"
+            to="/OnlineStore/cart"
             className="btn btn-dark position-relative"
             data-testid="shopping-cart-button"
           >

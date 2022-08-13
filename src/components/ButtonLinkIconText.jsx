@@ -7,7 +7,7 @@ class ButtonLinkIconText extends React.Component {
     const { icon, text, classStyle, product } = this.props;
     return (
       <Link
-        to={ `/detalhes/${product.id}` }
+        to={ `/OnlineStore/detalhes/${product.id}` }
         data-testid="product-detail-link"
         type="button"
         className={ `btn btn-${classStyle} my-1 mx-1` }

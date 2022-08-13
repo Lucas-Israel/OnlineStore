@@ -143,7 +143,7 @@ class ShoppingCart extends Component {
             >
               {`Total: ${currency.format(totalPrice)}`}
             </div>
-            <Link to="/checkout">
+            <Link to="/OnlineStore/checkout">
               <button
                 type="button"
                 className="btn btn-success btn-lg"

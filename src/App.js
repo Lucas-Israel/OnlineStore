@@ -13,10 +13,10 @@ class App extends React.Component {
       <BrowserRouter>
         <main className="container-fluid">
           <Switch>
-            <Route exact path="/" component={ Home } />
-            <Route exact path="/cart" component={ ShoppingCart } />
-            <Route exact path="/checkout" component={ Checkout } />
-            <Route exact path="/detalhes/:id" component={ ProductDetails } />
+            <Route exact path="/OnlineStore/" component={ Home } />
+            <Route exact path="/OnlineStore/cart" component={ ShoppingCart } />
+            <Route exact path="/OnlineStore/checkout" component={ Checkout } />
+            <Route exact path="/OnlineStore/detalhes/:id" component={ ProductDetails } />
           </Switch>
           <Footer />
         </main>

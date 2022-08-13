@@ -12,7 +12,7 @@ class Header extends Component {
         <div className="row justify-content-between my-3">
           <div className="col-2 col-sm-4 col-md-7 col-lg-9 align-items-center">
             <Link
-              to="/"
+              to="/OnlineStore/"
               className="d-flex align-items-center text-dark text-decoration-none"
             >
               <img
