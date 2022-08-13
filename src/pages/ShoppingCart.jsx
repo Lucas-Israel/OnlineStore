@@ -141,7 +141,7 @@ class ShoppingCart extends Component {
             <div
               className="fs-5 mb-3"
             >
-              {`Total: ${currency.format(totalPrice)}`}
+              {cart.length > 'Total: R$0.00 ? 0 : `Total: ${currency.format(totalPrice)}`}
             </div>
             <Link to="/checkout">
               <button
