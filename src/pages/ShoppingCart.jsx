@@ -38,7 +38,7 @@ class ShoppingCart extends Component {
 
   render() {
     const { cart } = this.state;
-    const totalPrice = cart
+    const totalPrice = cart.length > 0 && cart
       .map(({ price, orderQuantity }) => price * orderQuantity).reduce((a, b) => a + b);
     const currency = new Intl.NumberFormat('en-US', {
       style: 'currency',
