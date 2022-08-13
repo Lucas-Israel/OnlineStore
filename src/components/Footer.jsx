@@ -9,7 +9,7 @@ class Footer extends Component {
           className="row justify-content-center align-items-center py-3 my-4 border-top"
         >
           <div className="col-12 col-md-4 d-flex justify-content-center">
-            <a href="/" className="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+            <a href="/OnlineStore/" className="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
               <img
                 src={ logo }
                 className="img-fluid"
